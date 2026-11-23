@@ -6,21 +6,21 @@ This policy explains what the Android app Phone Monitor: Device Health (package 
 
 ## In short
 
-• Everything the app records stays on your phone.
-• The app has no internet permission, so it cannot send anything anywhere.
-• There are no accounts, no ads, no analytics, no crash reporting and no tracking libraries.
-• We never see, collect, sell or share your data.
-• Android cloud backup and device to device transfer are switched off for the app, so its data is not copied to Google Drive or to another phone.
+- Everything the app records stays on your phone.
+- The app has no internet permission, so it cannot send anything anywhere.
+- There are no accounts, no ads, no analytics, no crash reporting and no tracking libraries.
+- We never see, collect, sell or share your data.
+- Android cloud backup and device to device transfer are switched off for the app, so its data is not copied to Google Drive or to another phone.
 
 ## What the app reads, and why
 
 The app is a device health tool. It reads information about your phone from Android and keeps the results in a private database on the phone. It only reads what the features you pick need, and you choose what is kept: with "Minimal", readings are kept only for the few hours or days a feature needs them (a temperature warning keeps no temperature history at all).
 
-• Battery level, charging state, temperature, voltage and current: for battery history and health, warnings, charging speed and the "Will it last?" planner. No permission is needed for this.
-• Free and used storage, and the size of each app: for storage history and "What grew". This uses usage access.
-• Which apps were open and for how long, screen on and off, unlocks: for battery use per app, daily limits, recaps, usage spikes and each app's usage over time. This uses usage access, which you switch on yourself in Android settings.
-• WiFi and mobile data used by each app: for data limits, usage spikes, recaps and each app's data over time. This uses usage access, and on Android 9 and older the phone state permission, which Android requires there for data statistics. The app does not read your phone number, your calls or any device identifier.
-• The list of installed apps, with their names, icons and the permissions they hold: for the app list, app permissions and permission watch. This uses the permission to see all installed apps.
+- Battery level, charging state, temperature, voltage and current: for battery history and health, warnings, charging speed and the "Will it last?" planner. No permission is needed for this.
+- Free and used storage, and the size of each app: for storage history and "What grew". This uses usage access.
+- Which apps were open and for how long, screen on and off, unlocks: for battery use per app, daily limits, recaps, usage spikes and each app's usage over time. This uses usage access, which you switch on yourself in Android settings.
+- WiFi and mobile data used by each app: for data limits, usage spikes, recaps and each app's data over time. This uses usage access, and on Android 9 and older the phone state permission, which Android requires there for data statistics. The app does not read your phone number, your calls or any device identifier.
+- The list of installed apps, with their names, icons and the permissions they hold: for the app list, app permissions and permission watch. This uses the permission to see all installed apps.
 
 The app does not use an accessibility service or notification access. It cannot read your screen, your messages or your notifications.
 
@@ -36,9 +36,9 @@ We do not sell or share data. The only way data leaves the app is when you choos
 
 ## How long data is kept, and how to delete it
 
-• You choose how long history is kept in Settings, Data & backup, Keep history for: 7, 30, 90, 180 or 365 days, or forever. Older readings are deleted automatically once a day.
-• Delete all history, in Settings, Data & backup, removes every recorded reading.
-• Uninstalling the app, or clearing its storage in Android settings, deletes everything.
+- You choose how long history is kept in Settings, Data & backup, Keep history for: 7, 30, 90, 180 or 365 days, or forever. Older readings are deleted automatically once a day.
+- Delete all history, in Settings, Data & backup, removes every recorded reading.
+- Uninstalling the app, or clearing its storage in Android settings, deletes everything.
 
 ## Security
 
